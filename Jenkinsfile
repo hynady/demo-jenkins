@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/username/my-node-app.git' // Thay username bằng tên người dùng GitHub của bạn
+                git 'https://github.com/hynady/demo-jenkins' // Thay username bằng tên người dùng GitHub của bạn
             }
         }
         stage('Build') {
